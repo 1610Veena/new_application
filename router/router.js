@@ -4,7 +4,7 @@ const{table} = require("./Table");
 const express = require('express');
 
 
-const bcrypt = require('bcryptjs');
+const bcrypt = require('bcryptjs');    
 const server = express();
 const PORT = process.env.PORT || 3000;
 
